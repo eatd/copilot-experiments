@@ -1,8 +1,8 @@
 **Warning!**
-*The following settings are theoretical and may even be against TOS.*
+*The following settings are theoretical and may even be against GitHub's Terms of Service.*
 
 | Setting ID                                                             | Description                                                                                                                  |
-| ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------|
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | `github.copilot.advanced.debug.overrideChatMaxTokenNum`                | Overrides the maximum number of tokens allowed for a chat request.                                                           |
 | `enableInternalDebugLogging`                                           | Activates an enhanced debugging mode, potentially providing more logging and error reporting.                                |
 | `perfEvtsSendAll`                                                      | Related to an experimental completion mode called "use-collector-delta."                                                     |
@@ -13,7 +13,7 @@
 | `github.copilot.advanced.debug.overrideEmbeddingsModel`                | Overrides the embeddings model used by Copilot.                                                                              |
 | `github.copilot.advanced.debug.overrideChatOffTopicModel`              | Overrides the off-topic detection model used by Copilot.                                                                     |
 | `github.copilot.advanced.debug.overrideChatOffTopicModelTokenizer`     | Overrides the tokenizer used with the off-topic detection model.                                                             |
-| `github.copilot.advanced.debug.overrideChatOffTopicModelThreshold`     | Overrides the threshold used for determining off-topic responses. Higher values might make it more sensitive to off-topic content.|
+| `github.copilot.advanced.debug.overrideChatOffTopicModelThreshold`     | Overrides the threshold used for determining off-topic responses. Higher values might make it more sensitive to off-topic content. |
 | `github.copilot.advanced.debug.overrideLogLevels`                      | Overrides logging levels for specific categories.                                                                            |
 | `github.copilot.advanced.debug.filterLogCategories`                    | Filters log messages based on category. Only messages from included categories will be logged.                               |
 | `github.copilot.advanced.debug.reportFeedback`                         | Enables/disables feedback reporting.                                                                                         |
@@ -21,7 +21,7 @@
 | `github.copilot.advanced.debug.useElectronFetcher`                     | Forces Copilot to use the Electron fetcher for network requests (if available).                                              |
 | `github.copilot.advanced.slashCommands`                                | Controls the enablement of slash commands.                                                                                   |
 | `github.copilot.advanced.variables`                                    | Controls the enablement of conversation variables (like `#selection`).                                                       |
-| `github.copilot.advanced.conversationAdditionalPromptContext`          | Controls how much additional context from the conversation history is included in the prompt. Values: `firstTurn`, `allPreviousTurns`.|
+| `github.copilot.advanced.conversationAdditionalPromptContext`          | Controls how much additional context from the conversation history is included in the prompt. Values: `firstTurn`, `allPreviousTurns`. |
 | `github.copilot.advanced.conversationLoggingEnabled`                   | Enables/disables logging of conversation interactions.                                                                       |
 | `github.copilot.chat.notebookLogEnabled`                               | Enables/disables logging of notebook interactions.                                                                           |
 | `github.copilot.advanced.conversationIntentDetection`                  | Enables/disables intent detection for chat requests.                                                                         |
